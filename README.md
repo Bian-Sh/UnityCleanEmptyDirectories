@@ -26,6 +26,8 @@ https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
 Todo：
 加上一个排除/过滤功能，将还未来得及使用的空文件夹选择性的保留，如果选择保留呢，会在空文件夹中加一个隐藏文件（gitkeep~）注意，加了这个波浪符号的文件Unity不会将它当成资源，如此一来便实现了这个保留文件夹的功能。
 
+测试发现，虽然gitkeep~ 这样的命名方式unity不会识别成资源，但是与此同时，git也不会追踪它了，所以这个文件所在的文件夹对于git来说还是空文件夹，所以还是用下面的方式保留空文件吧：
+
 下面是另一种方式保留空文件夹的方式（.gitkeep）
 
 https://blog.csdn.net/fengchao2016/article/details/52769151
