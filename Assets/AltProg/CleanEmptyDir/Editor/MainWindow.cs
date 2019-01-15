@@ -33,8 +33,8 @@ namespace AltProg.CleanEmptyDir
             lastCleanOnSave = Core.CleanOnSave;
             Core.OnAutoClean += Core_OnAutoClean;
             UpdateChecker.OnDone += UpdateChecker_OnDone;
-
             UpdateChecker.Check();
+            
             delayedNotiMsg = "Click 'Find Empty Dirs' Button.";
         }
         
