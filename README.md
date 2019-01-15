@@ -15,3 +15,6 @@ doitian/unity-git-hooks: Git hooks for Unity3D project https://github.com/doitia
 网友的脑洞也是不可小觑的还有这个库也是魔改git hook 解决了 用户gitignore忽略了文件夹遗漏mate文件导致版本控制经常冲突的问题 
 kayy/git-pre-commit-hook-unity-assets: Pre-commit hook script for Unity to check that every folder that just has marked to be ignored in .gitignore has an entry for its meta file to be ignored too. https://github.com/kayy/git-pre-commit-hook-unity-assets
  加上一个排除/过滤功能，将还未来得及使用的空文件夹选择性的保留
+
+附上Unity 版本控制的官方教程，感觉有点老但也值得一瞥~
+https://unity3d.com/cn/learn/tutorials/topics/production/mastering-unity-project-folder-structure-version-control-systems
