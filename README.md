@@ -24,4 +24,7 @@ https://unity3d.com/cn/learn/tutorials/topics/production/mastering-unity-project
 https://docs.unity3d.com/Manual/ExternalVersionControlSystemSupport.html
 
 Todo：
-加上一个排除/过滤功能，将还未来得及使用的空文件夹选择性的保留，如果选择保留呢，会在空文件夹中加一个隐藏文件，如此一来便实现了这个保留文件夹的功能。
+加上一个排除/过滤功能，将还未来得及使用的空文件夹选择性的保留，如果选择保留呢，会在空文件夹中加一个隐藏文件（gitkeep~）注意，加了这个波浪符号的文件Unity不会将它当成资源，如此一来便实现了这个保留文件夹的功能。
+
+下面是另一种方式保留空文件夹的方式（.gitkeep）
+https://blog.csdn.net/fengchao2016/article/details/52769151
