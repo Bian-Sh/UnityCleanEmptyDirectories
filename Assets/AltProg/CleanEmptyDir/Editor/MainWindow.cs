@@ -25,7 +25,7 @@ namespace AltProg.CleanEmptyDir
         public static void ShowWindow()
         {
             var w = GetWindow<MainWindow>();
-            w.title = "Clean";
+            w.titleContent = new GUIContent("EmptyFolderCleaner");
         }
 
         void OnEnable()
@@ -131,7 +131,7 @@ namespace AltProg.CleanEmptyDir
 
                             foreach (var dirInfo in emptyDirs)
                             {
-                                UnityEngine.Object assetObj = Resources.LoadAssetAtPath( "Assets", typeof(UnityEngine.Object) );
+                                UnityEngine.Object assetObj = AssetDatabase.LoadAssetAtPath( "Assets", typeof(UnityEngine.Object) );
                                 if ( null != assetObj )
                                 {
                                     folderContent.text = Core.GetRelativePath(dirInfo.FullName, Application.dataPath);
